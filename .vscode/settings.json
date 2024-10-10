@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "pilhaestatica.h": "c"
+        "pilhaestatica.h": "c",
+        "stdlib.h": "c"
     }
 }
