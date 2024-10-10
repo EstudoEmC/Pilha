@@ -19,4 +19,6 @@ void teste( ){
         int stat;
        printf( "%d, ", desempilhar( f1, &stat ) );     
     }
+
+    liberaPilha( f1 );
 }
