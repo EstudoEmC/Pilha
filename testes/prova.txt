@@ -5,3 +5,14 @@ if (topo < max)
     status = 1;            
 }
 return status;
+
+
+int ret = 0;
+status = 0;
+if( topo > 0 )
+{
+    status = 1;
+    topo = topo - 1;    
+    ret = arrayPilha[topo];        
+}
+return ret;
