@@ -7,8 +7,6 @@ if (topo < max)
 return status;
 
 
-int ret = 0;
-status = 0;
 if( topo > 0 )
 {
     status = 1;
@@ -16,3 +14,10 @@ if( topo > 0 )
     ret = arrayPilha[topo];        
 }
 return ret;
+
+
+if( p->topo == 0 )
+{
+    status = 1;
+}
+return status;
