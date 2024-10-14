@@ -1,0 +1,7 @@
+if (topo < max)
+{
+    arrayPilha[topo] = elementoImplementar;  
+    topo = topo + 1; 
+    status = 1;            
+}
+return status;
