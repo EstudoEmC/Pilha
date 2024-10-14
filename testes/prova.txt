@@ -16,7 +16,7 @@ if( topo > 0 )
 return ret;
 
 
-if( p->topo == 0 )
+if( topo == 0 )
 {
     status = 1;
 }
